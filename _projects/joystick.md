@@ -1,14 +1,14 @@
 ---
 layout: page
 title: JoyStick
-description: SWContest prize-winning cross-device projection control software.
+description: An SWContest prize-winning cross-device projection and remote-control system for nearby heterogeneous devices.
 img: assets/img/joystick.png
 importance: 3
+redirect: https://github.com/SWC-JoyStick
 github: https://github.com/SWC-JoyStick
 ---
 
-JoyStick is a two-way screen projection control software for heterogeneous devices. It aims to support interconnection, interaction, and remote control across nearby multi-device environments.
+JoyStick is a two-way screen projection and remote-control software system developed for heterogeneous nearby devices.
 
-I was responsible for the PC-side development, including multi-screen collaboration, device discovery, and remote control. The project also explored near-field communication, mutual delivery control between PC and mobile phones, and gamepad simulation.
+It supports cross-device screen sharing, device discovery, multi-screen collaboration, and PC-mobile interaction. The project also explored near-field communication, mutual delivery control between PCs and mobile phones, and gamepad simulation, and received the National Third Prize in SWContest.
 
-The project received the National Third Prize in the SWContest.
