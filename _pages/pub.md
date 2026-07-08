@@ -10,5 +10,4 @@ years: []
 
 <div class="publications">
   <p>Publication entries will be added here soon.</p>
-  {% bibliography -f {{ site.scholar.bibliography }} -q @* %}
 </div>

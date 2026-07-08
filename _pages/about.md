@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: zhaoyang.jpg
+  image: self-image.png
 
 news: false
 selected_papers: false

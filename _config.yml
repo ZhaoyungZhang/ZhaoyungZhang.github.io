@@ -116,17 +116,9 @@ keep_files:
   - .git
 
 plugins:
-  - jekyll-archives
-  - jekyll-diagrams
-  - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata
-  - jekyll-imagemagick
-  - jekyll-paginate-v2
-  - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-target-blank
-  - jekyll-twitter-plugin
   - jemoji
 
 defaults:
@@ -136,61 +128,6 @@ defaults:
       sitemap: false
 
 github: [metadata]
-
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-jekyll-archives:
-  enabled: [year, tags, categories]
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
-
-# -----------------------------------------------------------------------------
-# Jekyll Scholar
-# -----------------------------------------------------------------------------
-
-scholar:
-  last_name: Zhang
-  first_name: [Zhaoyang]
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  bibtex_filters: [latex, smallcaps, superscript]
-  replace_strings: true
-  join_strings: true
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-  query: "@*"
-
-# -----------------------------------------------------------------------------
-# Responsive WebP Images
-# -----------------------------------------------------------------------------
-
-imagemagick:
-  enabled: true
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-  output_formats:
-    webp: "-quality 75%"
 
 # -----------------------------------------------------------------------------
 # Optional Features
