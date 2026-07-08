@@ -3,7 +3,7 @@ layout: page
 title: JoyStick
 description: SWContest prize-winning cross-device projection control software.
 img: assets/img/joystick.png
-importance: 1
+importance: 3
 github: https://github.com/SWC-JoyStick
 ---
 

@@ -20,12 +20,12 @@ nav_order: 3
 - Bachelor of Engineering, majoring in Computer Science and Technology
 - Overall GPA: 92.42 / 100
 
-Awards
+## Awards
 
 - 2023.03, Outstanding Graduates of Shandong Province
 - 2022.10, 2022 National Scholarship
-- 2022, <a href="https://www.swcontest.com.cn/#/articles/15">15th SWContest National Third Prize</a>
-- 2021, <a href="http://www.m2ct.org/view-page.jsp?editId=8&uri=0B00256&gobackUrl=modular-list.jsp&pageType=xwdt&menuType=">"ShenZhen Cup" Mathematical Modeling Challenge National Third Prize</a>
+- 2022.05, <a href="https://www.swcontest.com.cn/#/articles/15">15th SWContest National Third Prize</a>
+- 2022.01, <a href="http://www.m2ct.org/view-page.jsp?editId=8&uri=0B00256&gobackUrl=modular-list.jsp&pageType=xwdt&menuType=">"ShenZhen Cup" Mathematical Modeling Challenge National Third Prize</a>
 
 ----
 

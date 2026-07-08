@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">DBRepro architecture overview</title>
+  <desc id="desc">A stylized diagram showing metadata extraction, hybrid constraint solving, and synthetic database generation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6efe5"/>
+      <stop offset="100%" stop-color="#efe3d2"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f4b99"/>
+      <stop offset="100%" stop-color="#3b82c4"/>
+    </linearGradient>
+    <linearGradient id="panel2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#2f855a"/>
+    </linearGradient>
+    <linearGradient id="panel3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7a2e0e"/>
+      <stop offset="100%" stop-color="#c45c2f"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect x="36" y="36" width="888" height="468" rx="28" fill="#fffdf9" stroke="#d7c9b6" stroke-width="3"/>
+  <text x="72" y="102" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#1b1b1b">DBRepro</text>
+  <text x="72" y="142" font-family="Arial, sans-serif" font-size="22" fill="#475569">Synthetic database generation for reproducing slow queries</text>
+
+  <rect x="72" y="196" width="220" height="170" rx="20" fill="url(#panel)"/>
+  <text x="104" y="244" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Metadata</text>
+  <text x="104" y="286" font-family="Arial, sans-serif" font-size="20" fill="#e8f0fb">Schema</text>
+  <text x="104" y="316" font-family="Arial, sans-serif" font-size="20" fill="#e8f0fb">Catalog statistics</text>
+  <text x="104" y="346" font-family="Arial, sans-serif" font-size="20" fill="#e8f0fb">Slow queries</text>
+
+  <rect x="370" y="172" width="230" height="220" rx="20" fill="url(#panel2)"/>
+  <text x="400" y="224" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Hybrid Solver</text>
+  <text x="400" y="268" font-family="Arial, sans-serif" font-size="20" fill="#ecfdf3">Distribution synthesis</text>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="20" fill="#ecfdf3">Cardinality constraints</text>
+  <text x="400" y="332" font-family="Arial, sans-serif" font-size="20" fill="#ecfdf3">Plan-consistent refinement</text>
+
+  <rect x="678" y="196" width="210" height="170" rx="20" fill="url(#panel3)"/>
+  <text x="714" y="244" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Output</text>
+  <text x="714" y="286" font-family="Arial, sans-serif" font-size="20" fill="#fff4ec">Synthetic data</text>
+  <text x="714" y="316" font-family="Arial, sans-serif" font-size="20" fill="#fff4ec">Plan replay</text>
+  <text x="714" y="346" font-family="Arial, sans-serif" font-size="20" fill="#fff4ec">Offline diagnosis</text>
+
+  <line x1="292" y1="280" x2="370" y2="280" stroke="#475569" stroke-width="6" marker-end="url(#arrow)"/>
+  <line x1="600" y1="280" x2="678" y2="280" stroke="#475569" stroke-width="6" marker-end="url(#arrow)"/>
+
+  <rect x="110" y="408" width="728" height="56" rx="16" fill="#f5efe6" stroke="#d9ccbb" stroke-width="2"/>
+  <text x="136" y="445" font-family="Arial, sans-serif" font-size="22" fill="#374151">Validated on real industrial workloads with multi-query slow cases and production-scale data.</text>
+</svg>

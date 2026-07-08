@@ -3,7 +3,7 @@ layout: page
 title: Photos
 permalink: /photos/
 description: Photo gallery placeholder.
-nav: true
+nav: false
 nav_order: 6
 ---
 
