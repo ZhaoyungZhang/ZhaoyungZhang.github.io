@@ -8,9 +8,9 @@ nav_order: 4
 ---
 
 <div class="publications bug-report-list">
-  <h2>Database Management Systems <span>(21 bug reports)</span></h2>
+  <h2>Database Management Systems <span>(21 bugs)</span></h2>
 
-  <h3>MySQL (11 bug reports)</h3>
+  <h3>MySQL (11 bugs)</h3>
   <ol>
     <li><a href="https://bugs.mysql.com/bug.php?id=120772">MySQL Bugs: #120772: UPDATE HISTOGRAM causes optimizer to use stale cardinalities and miss faster join order</a></li>
     <li><a href="https://bugs.mysql.com/bug.php?id=120773">MySQL Bugs: #120773: Hash join misses DISTINCT ORDER BY LIMIT early termination</a></li>
@@ -25,13 +25,13 @@ nav_order: 4
     <li><a href="https://bugs.mysql.com/bug.php?id=120870">MySQL Bugs: #120870: Hypergraph misses BETWEEN equality, causing 100x slowdown</a></li>
   </ol>
 
-  <h3>TiDB (2 bug reports)</h3>
+  <h3>TiDB (2 bugs)</h3>
   <ol>
     <li><a href="https://github.com/pingcap/tidb/issues/69556">planner: HashJoin plan is estimated 325x more costly but runs 3x faster than the chosen MergeJoin under LIMIT</a></li>
     <li><a href="https://github.com/pingcap/tidb/issues/69564">planner: similar estimated cost but 3x runtime gap for HashJoin join orders under TopN</a></li>
   </ol>
 
-  <h3>MariaDB (8 bug reports)</h3>
+  <h3>MariaDB (8 bugs)</h3>
   <ol>
     <li><a href="https://jira.mariadb.org/browse/MDEV-40238">MDEV-40238: SELECT DISTINCT inner join is not optimized as semijoin, causing duplicate-insensitive fanout expansion</a></li>
     <li><a href="https://jira.mariadb.org/browse/MDEV-40241">MDEV-40241: Optimizer misses impossible INNER JOIN condition with IS NULL and normal equality</a></li>

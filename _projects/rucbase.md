@@ -2,7 +2,7 @@
 layout: page
 title: RucBase
 description: A teaching-oriented database kernel platform for database systems courses and hands-on lab assignments.
-img: assets/img/rucbase.svg
+img: assets/img/rucbase.png
 importance: 2
 redirect: https://github.com/ruc-deke/rucbase-lab
 github: https://github.com/ruc-deke/rucbase-lab
