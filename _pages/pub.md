@@ -9,6 +9,7 @@ years: []
 ---
 
 <div class="publications">
+  <h2 class="year">2026</h2>
   <div class="row publication-entry">
     <div class="col-sm-2 abbr">
       <abbr class="badge">ASE'2026<br />(Industry)</abbr>

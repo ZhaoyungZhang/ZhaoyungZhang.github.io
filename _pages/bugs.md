@@ -2,7 +2,7 @@
 layout: page
 permalink: /bugs/
 title: Found Bugs
-description: DBMS bugs found during research.
+description: Optimizer-related bugs found during research.
 nav: true
 nav_order: 4
 ---
